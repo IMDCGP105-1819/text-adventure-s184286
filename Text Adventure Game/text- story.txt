@@ -1,6 +1,0 @@
-"welcome to main lobby...."
-
-from ...here to here...find.....xyz...do xyz..
-
-
-end...enjoy"
