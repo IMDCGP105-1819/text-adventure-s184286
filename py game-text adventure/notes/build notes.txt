@@ -1,0 +1,211 @@
+GAME OBJECTIVES:
+
+
+# create a player
+
+# create a map
+
+# create rooms (4-12)
+
+# create things, items
+
+# create commands
+	: go direction, north,south,east,west,up or down.
+	: look, look thing
+	: take thing,
+	: drop thing
+	: use thing
+
+# game should not allow the player to die or become impossibly stuck
+
+# include a readme that provides a full walkthrough of the game and the correct solution
+
+-------
+
+WALK_THROUGH.TXT
+
+Start:
+
+	welcome ""
+		MAP()
+			room_1--item_
+			room_2--item_
+			room_3--item_
+			room_4--item_
+			room_5--item_
+			room_6--item_
+			room_7--item_
+			room_8--item_
+			room_9--item_
+			room_10-item_
+
+Game End:
+
+------
+
+CONTROLLER - GAME_COMMANDS
+
+directions:
+	north
+	south
+	east
+	west
+
+	left
+	right
+	up
+	down
+
+confirm:
+	enter
+	true
+	false
+	yes
+	no
+
+object:
+	look
+	pick up
+	drop
+	collect
+	move
+	examine
+
+door:
+	open
+	close
+	push
+
+other:
+------
+
+STORY / NARRATION.TXT
+
+"welcome to main lobby...."
+
+from ...here to here...find.....xyz...do xyz..
+
+
+end...enjoy"
+
+
+
+note:
+
+#
+#
+#
+#
+#
+#
+
+ --------
+ MAP
+
+
+
+	map()
+		room_1
+		 def room_1():
+			print("welcome to Text adventure, ")
+		room_2
+		 def room_2():
+			print("welcome to room_2, ")
+		room_3
+		 def room_3():
+			print("welcome to room_3, ")
+		room_4
+		 def room_4():
+			print("welcome to room_4, ")
+		room_5
+		room_6
+		room_7
+		room_8
+		room_9
+		room_10
+
+		end.
+
+
+
+------------
+
+GAME OBJECTS
+
+# ITEM 1 - DESCRIPTION
+# ITEM 2 - DESCRIPTION
+# ITEM 3 - DESCRIPTION
+# ITEM 4 - DESCRIPTION
+
+
+------
+
+SKETCH 1
+
+import map
+
+--------
+
+
+create program
+
+create a module
+
+add input
+
+add output
+
+#data types...
+
+str
+int
+float
+
+#decisions: 
+
+booleans
+if statements
+operations
+
+# functions
+
+data in, data out
+
+# lists
+
+add
+length
+get
+search
+
+# loops
+
+while loops
+for loops
+loop counters
+ranges
+using enumerate
+
+# the game loop
+
+# objects
+
+defining objects with classes
+
+__init__ 
+__str__
+
+add weapons
+
+# exceptions
+
+# intermezzo
+
+organizing code into multiple files
+importing from other files
+
+# building your world
+
+x-y Grid
+
+-----------
